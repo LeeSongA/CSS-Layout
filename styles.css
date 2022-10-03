@@ -1,20 +1,15 @@
+.wrapper {
+  display: flex;
+}
+
 .box {
-  background: blue;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: peru;
   color: white;
-}
-
-.box:nth-child(2) {
-  margin-left: 35px;
-}
-
-.box:nth-child(3) {
-  margin-left: 20px;
 }
 
 /* 
  * NOTE: 
- * block 속성을 갖고 있어서 높이와 너비가 있음 
+ * flex를 이용하여 박스의 위치를 옮길 때, flex container인 부모에서 지정함.
  */
