@@ -1,15 +1,25 @@
-.wrapper {
+.father {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  flex-direction: row-reverse;
+  /* Main Axis */
+  justify-content: space-around;
+  height: 200vh;
+  flex-wrap: wrap;
 }
 
-.box {
+.child {
   width: 200px;
   height: 200px;
   background: peru;
   color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child:nth-child(2) {
+  flex-shrink: 3;
 }
 
 /* 
