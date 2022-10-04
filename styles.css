@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+}
+
+/* 
+ * NOTE: 
+ * flex-direction: row 기본값, row가 main axis 
+ * -> justify-content main axis로 위치 변경
+ * -> align-items cross axis로 위치 변경 
+ * flex를 이용하여 박스의 위치를 옮길 때, flex container인 부모에서 지정함.
+ */
