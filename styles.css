@@ -1,15 +1,24 @@
-.wrapper {
+.father {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  /* Main Axis */
+  justify-content: space-around;
+  height: 200vh;
 }
 
-.box {
+.child {
   width: 200px;
   height: 200px;
   background: peru;
   color: white;
+  font-size: 50px;
+}
+
+.child:nth-child(1) {
+  order: 2;
+}
+
+.child:nth-child(2) {
+  order: 3;
 }
 
 /* 

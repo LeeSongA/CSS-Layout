@@ -6,14 +6,14 @@
 
 - [ ] flex-direction
 - [ ] flex-wrap
-- [ ] justify-content
-- [ ] align-items
+- [ ] justify-content: main-axis
+- [ ] align-items: cross-axis
 - [ ] align-content
 - [ ] order
 - [ ] flex-grow
 - [ ] flex-shrink
 - [ ] flex-basis
-- [ ] align-self
+- [ ] align-self: cross-axis에서 하나의 요소에만 적용됨
 
 ## Grid:
 
