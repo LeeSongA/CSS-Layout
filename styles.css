@@ -18,12 +18,8 @@
   align-items: center;
 }
 
-.child:nth-child(1) {
-  order: 2;
-}
-
 .child:nth-child(2) {
-  order: 3;
+  flex-shrink: 3;
 }
 
 /* 

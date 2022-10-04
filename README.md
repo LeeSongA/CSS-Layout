@@ -10,8 +10,8 @@
 - [ ] align-items: cross-axis
 - [ ] align-content: line을 변경함
 - [ ] order: 요소의 순서를 정함. 기본값은 0이고 오름차순으로 정렬됨
-- [ ] flex-grow
-- [ ] flex-shrink
+- [ ] flex-grow: 기본값은 0이고, 박스 주변의 공간을 가져감
+- [ ] flex-shrink: 기본값은 0이고 숫자만큼 배로 줄어듬
 - [ ] flex-basis
 - [ ] align-self: cross-axis에서 하나의 요소에만 적용됨
 
