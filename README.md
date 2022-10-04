@@ -4,12 +4,12 @@
 
 ## Flexbox:
 
-- [ ] flex-direction
-- [ ] flex-wrap
+- [ ] flex-direction: 요소를 가로 또는 세로로 정렬함
+- [ ] flex-wrap: child의 크기를 유지하며 요소를 배치함
 - [ ] justify-content: main-axis
 - [ ] align-items: cross-axis
-- [ ] align-content
-- [ ] order
+- [ ] align-content: line을 변경함
+- [ ] order: 요소의 순서를 정함. 기본값은 0이고 오름차순으로 정렬됨
 - [ ] flex-grow
 - [ ] flex-shrink
 - [ ] flex-basis
